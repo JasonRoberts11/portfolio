@@ -2,9 +2,16 @@
 <html>
 <head>
   <title>Portfolio</title>
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Raleway&display=swap" rel="stylesheet">
+  <link rel='stylesheet' href='style.css'/>
 </head>
 <body>
-  <h1>Welcome to Jason's Portfolio</h1>
+  <ul class="navbar">
+    <li><a href="index.html" class="active">Portfolio</a></li>
+    <li><a href="page1.html">Page 1</a></li>
+    <li><a href="page2.html">Page 2</a></li>
+  </ul>
+  <h1 id="name">Welcome to Jason's Portfolio</h1>
   <hr>
   <h2>About</h2>
   <p>My name is Jason and I like lots of stuff.
@@ -14,7 +21,7 @@ as well. That is about it.
   </p>
   <h2>Projects</h2>
   <p>I have made some projects over the course of my life, here are a few.</p>
-  <ul>
+  <ul class="boxlist">
     <li><a href = "https://mus.uq.repl.co">Procedural Music:</a>
 using canvas and audio contexts.</li>
     <li><a href = "https://chk.uq.repl.co">Checklist Program:</a>
